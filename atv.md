@@ -25,3 +25,10 @@
 | data_hora |  data e hora que o usuario criou o post | DataType | | PK |
 | nome_usuario_id | identificador do nome | int |  | FK |
 | id_grupo | Chave estranjeira da tabela grupo | int | |  FK/PK |
+
+# Moderador
+|Campos | | | | |
+|:-------|:------- | :------- | :------- | :------- |
+|  **Nome**  | **Descrição** |  **Tipo de dado**  | **Tamanho** |  **Restrições de integridade**  |
+| id | Cógido de identificação da tabela | int |  | PK |
+| senha | uma senha qualquer criada pelo o moderador | Varchar | 8 | Nulo |
